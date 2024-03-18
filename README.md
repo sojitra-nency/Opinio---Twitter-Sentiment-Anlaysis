@@ -1,5 +1,5 @@
-# TSA: Sentiment Analysis for Tweets
-TSA (Tweet Sentiment Analysis) is a web application that helps you understand the overall sentiment of a tweet, classifying it as positive or negative.
+# Opinio: Sentiment Analysis for Tweets
+Opinio is a web application that helps you understand the overall sentiment of a tweet, classifying it as positive or negative.
 
 ## Dataset
 
@@ -40,7 +40,7 @@ Streamlit for a user-friendly interface (alternative to Flask)
 CSS for styling the user interface
 
 ## Project Structure
-tsa/
+Opinio/
 ├── app.py (optional, Flask implementation)
 
 ├── main.py (backend with logistic regression model)
@@ -87,4 +87,4 @@ Access the app in your web browser (usually at http://localhost:8501/)
 The specific port used by Flask or Streamlit might differ. Check the console output for the exact URL.
 
 ## Contributing
-We welcome contributions to improve TSA. Feel free to fork the repository, make changes, and submit a pull request.
+We welcome contributions to improve Opinio. Feel free to fork the repository, make changes, and submit a pull request.
