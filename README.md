@@ -46,7 +46,7 @@ tsa/
 
     └── index.html
     
-    └── ... (other templates)
+    └── result.html
     
 ├── trained_model.sav (saved logistic regression model)
 
