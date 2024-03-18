@@ -13,14 +13,21 @@ The predicted sentiment is displayed on the screen, potentially with visual cues
 ## Technologies Used
 ### Backend:
 Python
+
 scikit-learn (Logistic Regression)
+
 Flask (optional)
+
 Streamlit (optional)
+
 Pickle (for model and vectorizer serialization)
-Frontend:
+
+### Frontend:
 HTML (optional, for Flask)
-Optional Features:
+
+## Optional Features:
 Streamlit for a user-friendly interface (alternative to Flask)
+
 CSS for styling the user interface
 
 ## Project Structure
@@ -35,6 +42,7 @@ tsa/
     └── ... (other templates)
 ├── trained_model.sav (saved logistic regression model)
 └── vectorizer.pickle (saved vectorizer)
+
 Note: You can choose to implement the backend using either Flask or Streamlit. Flask provides more flexibility for building a custom web interface, while Streamlit offers a quicker way to deploy a simple interface.
 
 ## Installation and Usage
@@ -42,15 +50,19 @@ Note: You can choose to implement the backend using either Flask or Streamlit. F
 
 Python 3.x
 Install required libraries using pip install -r requirements.txt
+
 Flask Implementation (optional):
 
 Run the Flask app: python app.py
 Access the app in your web browser (usually at http://127.0.0.1:5000/)
+
 Streamlit Implementation (optional):
 
 Run the Streamlit app: streamlit run streamlit.py
+
 Access the app in your web browser (usually at http://localhost:8501/)
-Note:
+
+#### Note:
 
 The specific port used by Flask or Streamlit might differ. Check the console output for the exact URL.
 
