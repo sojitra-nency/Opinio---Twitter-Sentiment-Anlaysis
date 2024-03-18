@@ -1,6 +1,15 @@
 # TSA: Sentiment Analysis for Tweets
 TSA (Tweet Sentiment Analysis) is a web application that helps you understand the overall sentiment of a tweet, classifying it as positive or negative.
 
+## Dataset
+
+The training data used in this project is not included in the repository due to its size. However, you can download the dataset from Kaggle at the following link:
+
+#### Sentiment140: 
+https://www.kaggle.com/datasets/kazanova/sentiment140
+
+This dataset contains a large collection of tweets labeled with their sentiment (positive, neutral, or negative). You can use this data to train and evaluate your own sentiment analysis model.
+
 ## Functionality
 Users enter a tweet in the provided text area.
 
@@ -62,12 +71,12 @@ You can choose to implement the backend using either Flask or Streamlit. Flask p
 Python 3.x
 Install required libraries using pip install -r requirements.txt
 
-Flask Implementation (optional):
+#### Flask Implementation (optional):
 
 Run the Flask app: python app.py
 Access the app in your web browser (usually at http://127.0.0.1:5000/)
 
-Streamlit Implementation (optional):
+#### Streamlit Implementation (optional):
 
 Run the Streamlit app: streamlit run streamlit.py
 
