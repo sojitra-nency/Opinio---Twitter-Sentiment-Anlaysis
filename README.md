@@ -33,17 +33,28 @@ CSS for styling the user interface
 ## Project Structure
 tsa/
 ├── app.py (optional, Flask implementation)
+
 ├── main.py (backend with logistic regression model)
+
 ├── README.md (this file)
+
 ├── requirements.txt (dependencies)
+
 ├── streamlit.py (optional, Streamlit implementation)
+
 └── templates/ (optional, HTML templates for Flask)
+
     └── index.html
+    
     └── ... (other templates)
+    
 ├── trained_model.sav (saved logistic regression model)
+
 └── vectorizer.pickle (saved vectorizer)
 
-Note: You can choose to implement the backend using either Flask or Streamlit. Flask provides more flexibility for building a custom web interface, while Streamlit offers a quicker way to deploy a simple interface.
+
+#### Note: 
+You can choose to implement the backend using either Flask or Streamlit. Flask provides more flexibility for building a custom web interface, while Streamlit offers a quicker way to deploy a simple interface.
 
 ## Installation and Usage
 ### Prerequisites:
@@ -66,5 +77,5 @@ Access the app in your web browser (usually at http://localhost:8501/)
 
 The specific port used by Flask or Streamlit might differ. Check the console output for the exact URL.
 
-##Contributing
+## Contributing
 We welcome contributions to improve TSA. Feel free to fork the repository, make changes, and submit a pull request.
