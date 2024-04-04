@@ -74,6 +74,7 @@ Install required libraries using pip install -r requirements.txt
 #### Flask Implementation (optional):
 
 Run the Flask app: python app.py
+
 Access the app in your web browser (usually at http://127.0.0.1:5000/)
 
 #### Streamlit Implementation (optional):
