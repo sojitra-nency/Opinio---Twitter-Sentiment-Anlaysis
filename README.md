@@ -41,6 +41,7 @@ CSS for styling the user interface
 
 ## Project Structure
 Opinio/
+
 ├── app.py (optional, Flask implementation)
 
 ├── main.py (backend with logistic regression model)
